@@ -1,0 +1,90 @@
+#description-container {
+    width: 100%;
+    min-height: 400px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 4px 4px 8px #e8491d;
+    background: url("old.jpg");
+    /* background: #457; */
+    background-size: cover;
+}
+
+.main-para {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 50px;
+    padding-top: 90px;
+}
+
+.description-para {
+    font-size: 23px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(53, 66, 74);
+    color: #fff;
+    height: 70px;
+    font-size: 18px;
+}
+
+.dr-contact-info {
+    text-align: center;
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 20px;
+}
+
+.foo {
+    padding: 0 15px;
+    opacity: 1;
+}
+
+#developers-name {
+    color: #e8491d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#scientists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.scientist {
+    width: 50px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+/* .scientist-name {
+    text-align: center;
+} */
+
+.show-more-btn {
+    width: 70px;
+    height: 90px;
+    color: #fff;
+    padding-top: 60px;
+    font-size: 25px;
+    background-color: #d6d0d0;
+    text-align: center;
+}
+
+.final-footer {
+    text-align: center;
+    background-color: #e8491d;
+    color: #fff;
+    height: 30px;
+    padding-top: 8px;
+    font-weight: bold;
+}
